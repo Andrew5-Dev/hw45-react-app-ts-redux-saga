@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 22px;
+}
+
+.button {
+    background-image: linear-gradient(#f7f8fa, #e7e9ec);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    box-shadow: rgba(255, 255, 255, .6) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #0f1111;
+    font-weight: bolder;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    height: 29px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 11px;
+    margin-left: 5px;
+}
+
+.button:active:hover {
+    border-color: red;
+}
+
+.header
+{
+    font-size: 60px;
+    font-weight: 600;
+    background-image: linear-gradient(to bottom left, #553c9a, #ee4b2b);
+    color: transparent;
+    background-clip: text;
+}
+
+
+
+
